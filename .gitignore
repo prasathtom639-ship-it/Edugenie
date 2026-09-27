@@ -1,0 +1,22 @@
+# Environment
+.env
+.venv/
+.venv-1/
+.venv-2/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test/cache
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

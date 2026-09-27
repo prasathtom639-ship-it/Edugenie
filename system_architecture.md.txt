@@ -1,0 +1,38 @@
+# EduGenie-AI - System Architecture
+
+## 1. Architecture Overview
+
+EduGenie-AI is designed as a modular AI-powered educational application. The system consists of a user interface, FastAPI backend, AI services, and educational modules.
+
+## 2. System Flow
+
+```text
+Student
+   |
+   v
+Web Interface
+   |
+   v
+FastAPI Backend
+   |
+   v
+Educational Modules
+   |
+   +--------+--------+---------+--------------+
+   |        |        |         |              |
+   v        v        v         v              v
+  Q&A  Explanation  Quiz    Summary    Learning Path
+   |        |        |         |              |
+   +--------+--------+---------+--------------+
+                     |
+                     v
+                 AI Client
+                     |
+                     v
+                  AI / LLM
+                     |
+                     v
+                  Response
+                     |
+                     v
+                  Student

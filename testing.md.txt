@@ -1,0 +1,12 @@
+# EduGenie-AI - Testing
+
+## 1. Testing Overview
+
+Testing is performed to verify that EduGenie-AI works correctly and that its APIs return the expected results.
+
+## 2. Start the Server
+
+Open the VS Code terminal and run:
+
+```powershell
+python -m uvicorn main:app --reload

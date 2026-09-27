@@ -1,0 +1,21 @@
+# EduGenie-AI - Installation and Setup
+
+## 1. Requirements
+
+Before installing EduGenie-AI, make sure the following are installed:
+
+- Python 3.x
+- Visual Studio Code
+- Git (optional)
+- Internet connection
+
+## 2. Open the Project
+
+Open the EduGenie-AI project folder in Visual Studio Code.
+
+## 3. Create Virtual Environment
+
+Open the VS Code terminal and run:
+
+```powershell
+python -m venv .venv

@@ -1,0 +1,55 @@
+# EduGenie-AI - Project Overview
+
+## 1. Introduction
+
+EduGenie-AI is an AI-powered educational assistant designed to help students learn topics, ask questions, generate explanations, create quizzes, summarize study materials, and receive personalized learning recommendations.
+
+## 2. Objectives
+
+- Provide AI-based educational assistance.
+- Answer student questions clearly.
+- Explain difficult concepts in simple language.
+- Generate quizzes for practice.
+- Summarize educational content.
+- Provide personalized learning paths.
+
+## 3. Main Features
+
+- Question and Answer
+- AI Topic Explanation
+- Quiz Generation
+- Text Summarization
+- Personalized Learning Path
+- FastAPI REST API
+- Web-based interface
+
+## 4. Technologies Used
+
+- Python
+- FastAPI
+- Uvicorn
+- HTML
+- CSS
+- JavaScript
+- AI/LLM API
+- Pydantic
+- Python-dotenv
+
+## 5. Project Modules
+
+| Module | Purpose |
+|---|---|
+| main.py | FastAPI application |
+| config.py | Application configuration |
+| ai_client.py | AI/LLM communication |
+| models.py | Request and response models |
+| prompts.py | AI prompts |
+| qna.py | Question answering |
+| explanation_module.py | Topic explanations |
+| quiz_module.py | Quiz generation |
+| summary_module.py | Text summarization |
+| learning_path.py | Learning recommendations |
+
+## 6. Conclusion
+
+EduGenie-AI combines web technologies and artificial intelligence to provide a student-friendly learning assistant.

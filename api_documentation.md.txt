@@ -1,0 +1,10 @@
+# EduGenie-AI API Documentation
+
+## 1. API Overview
+
+EduGenie-AI uses FastAPI to provide REST APIs for educational services.
+
+## 2. Base URL
+
+```text
+http://127.0.0.1:8000
